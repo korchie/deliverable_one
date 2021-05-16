@@ -1,0 +1,98 @@
+body {
+    font-family: 'Bungee', cursive;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.top-section {
+    color: green;
+    font-size: 1rem;
+    background-color: blue;
+}
+
+.ccc-image {
+    float: left;
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #7944e6;
+}
+
+a:visited {
+    color: #7944e6;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+a:active {
+    color: #7944e6;
+}
+
+table, th, td {
+    padding: 12px;
+    float: right;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    size: 1.5rem;
+    color: #7944e6;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.pink-section {
+    margin: 20px;
+    background-color: #ff00ff;
+    text-align: left;
+}
+
+.coffee-section {
+    border-style: solid;
+    border-color: #7944e6;
+    border-width: 5px;
+    padding: 50px, 50px;
+    margin: 115px;
+    }
+
+.cream-section {
+    border-style: solid;
+    border-color: #7944e6;
+    border-width: 5px;
+    padding: 50px, 50px;
+    margin: 115px;
+    }
+
+.cookies-section {
+    border-style: solid;
+    border-color: #7944e6;
+    border-width: 5px;
+    padding: 50px, 50px;
+    margin: 115px;
+    }
+
+    @media screen and (min-width: 768px) {
+        body {
+            font-size: 130%;
+            display: flex;
+            justify-content: space-around;
+        }
+    
+    }
